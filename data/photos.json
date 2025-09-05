@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "src": "assets/img/photos/100_1256.jpg",
+    "description": "J'aime trop cette photo de nous mais je te l'ai jamais dis lol",
+    "title": "Le début de notre histoire"
+  },
+  {
+    "id": 2,
+    "src": "assets/img/photos/6E22F6CF-F3B0-4226-B5E2-563105F24471.jpg",
+    "description": "Cette balade au parc où on a marché main dans la main pour la première fois - mon cœur battait si fort",
+    "title": "Au mariage de ta maman"
+  },
+  {
+    "id": 3,
+    "src": "assets/img/photos/FullSizeRender.jpg",
+    "description": "Notre premier dîner romantique - tu étais si belle dans cette robe rouge, j'avais du mal à détacher mes yeux de toi",
+    "title": "Dîner aux chandelles"
+  },
+  {
+    "id": 4,
+    "src": "assets/img/photos/IMG_0699.jpg",
+    "description": "Ce week-end à la montagne où on a partagé notre premier baiser sous les étoiles - un moment magique",
+    "title": "Baiser sous les étoiles"
+  },
+  {
+    "id": 5,
+    "src": "assets/img/photos/IMG_0797.JPG",
+    "description": "Ta fête d'anniversaire surprise - voir ton visage s'illuminer quand tu m'as vu arriver avec le gâteau restera gravé dans ma mémoire",
+    "title": "Surprise d'anniversaire"
+  },
+  {
+    "id": 6,
+    "src": "assets/img/photos/IMG_2757.JPG",
+    "description": "Notre voyage à Paris - se perdre dans les rues de la capitale avec toi était le plus beau des voyages",
+    "title": "Paris, ville de l'amour"
+  },
+  {
+    "id": 7,
+    "src": "assets/img/photos/IMG_3205.jpg",
+    "description": "Ce pique-nique au bord du lac où on a parlé de nos rêves - tu m'as dit que tu voulais voyager avec moi",
+    "title": "Rêves partagés"
+  },
+  {
+    "id": 8,
+    "src": "assets/img/photos/IMG_3460.jpg",
+    "description": "Nos soirées cinéma à la maison, blottis sous la couverture - ces moments simples sont les plus précieux",
+    "title": "Soirées cosy"
+  },
+  {
+    "id": 9,
+    "src": "assets/img/photos/IMG_3469.jpg",
+    "description": "Notre escapade en Provence - les champs de lavande, le soleil, et toi qui dansais dans les fleurs",
+    "title": "Danse dans la lavande"
+  },
+  {
+    "id": 10,
+    "src": "assets/img/photos/IMG_3689.JPG",
+    "description": "Le jour où on a célébré notre premier anniversaire ensemble - 365 jours de bonheur pur",
+    "title": "Un an de bonheur"
+  },
+  {
+    "id": 11,
+    "src": "assets/img/photos/IMG_3721.jpg",
+    "description": "Cette photo récente où on se regarde dans les yeux - je vois tout notre avenir dans ton regard",
+    "title": "Notre avenir"
+  }
+]

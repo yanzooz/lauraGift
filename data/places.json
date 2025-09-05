@@ -1,0 +1,72 @@
+[
+  {
+    "id": "lyon_cafe",
+    "name": "Café des Arts",
+    "lat": 45.7640,
+    "lng": 4.8357,
+    "note": "Notre premier rendez-vous - le début de notre histoire d'amour"
+  },
+  {
+    "id": "parc_tete_dor",
+    "name": "Parc de la Tête d'Or",
+    "lat": 45.7789,
+    "lng": 4.8527,
+    "note": "Nos promenades romantiques au cœur de la nature"
+  },
+  {
+    "id": "restaurant_lyon",
+    "name": "Le Bistrot des Halles",
+    "lat": 45.7673,
+    "lng": 4.8346,
+    "note": "Nos dîners aux chandelles dans ce petit bistrot cosy"
+  },
+  {
+    "id": "alpes_weekend",
+    "name": "Chamonix",
+    "lat": 45.9237,
+    "lng": 6.8694,
+    "note": "Notre premier week-end ensemble dans les Alpes"
+  },
+  {
+    "id": "maison_fete",
+    "name": "Notre Maison",
+    "lat": 45.7500,
+    "lng": 4.8500,
+    "note": "Là où nous créons nos plus beaux souvenirs"
+  },
+  {
+    "id": "paris_voyage",
+    "name": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "note": "Notre escapade romantique dans la capitale"
+  },
+  {
+    "id": "lac_pique_nique",
+    "name": "Lac d'Annecy",
+    "lat": 45.8992,
+    "lng": 6.1294,
+    "note": "Nos pique-niques au bord de ce lac magnifique"
+  },
+  {
+    "id": "maison_cinema",
+    "name": "Notre Salon",
+    "lat": 45.7500,
+    "lng": 4.8500,
+    "note": "Nos soirées cinéma sous la couette"
+  },
+  {
+    "id": "provence_escapade",
+    "name": "Aix-en-Provence",
+    "lat": 43.5297,
+    "lng": 5.4474,
+    "note": "Notre escapade dans le sud de la France"
+  },
+  {
+    "id": "restaurant_anniversaire",
+    "name": "Le Gourmet",
+    "lat": 45.7650,
+    "lng": 4.8400,
+    "note": "Où nous célébrons nos anniversaires d'amour"
+  }
+]

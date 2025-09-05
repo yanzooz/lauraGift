@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Lettre - Anniversaire Laura</title>
+    <meta name="description" content="Un message secret qui t'attend...">
+    <meta name="theme-color" content="#FF6B35">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html" class="breadcrumb__link">Accueil</a>
+                <span class="breadcrumb__separator">→</span>
+                <span class="breadcrumb__current">Ma Lettre</span>
+            </nav>
+            <h1 class="header__title">
+                <span class="header__icon">💌</span>
+                Ma lettre d'amour pour toi
+            </h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Écran de saisie du code -->
+            <div class="code-gate" id="codeGate">
+                <div class="code-gate__content">
+                    <div class="code-gate__icon">🔐</div>
+                    <h2 class="code-gate__title">Code secret pour ma lettre</h2>
+                    <p class="code-gate__description">Entre le code secret pour découvrir ma lettre d'amour</p>
+                    
+                    <form class="code-form" id="codeForm">
+                        <div class="input-group">
+                            <input 
+                                type="text" 
+                                id="secretCode" 
+                                class="input" 
+                                placeholder="Code secret..."
+                                autocomplete="off"
+                                required
+                            >
+                            <button type="submit" class="btn btn--primary">
+                                <span class="btn__text">Découvrir</span>
+                                <span class="btn__icon">✨</span>
+                            </button>
+                        </div>
+                        <div class="code-form__error" id="codeError" role="alert" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Écran de la lettre (caché par défaut) -->
+            <div class="letter-container" id="letterContainer" style="display: none;">
+                <div class="letter">
+                    <div class="letter__header">
+                        <div class="letter__date" id="letterDate"></div>
+                        <div class="letter__actions">
+                            <button class="btn btn--secondary btn--small" id="printLetter">
+                                <span class="btn__icon">🖨️</span>
+                                <span class="btn__text">Imprimer</span>
+                            </button>
+                            <button class="btn btn--secondary btn--small" id="downloadLetter">
+                                <span class="btn__icon">💾</span>
+                                <span class="btn__text">Télécharger</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="letter__content" id="letterContent">
+                        <!-- Le contenu de la lettre sera injecté ici après déverrouillage -->
+                    </div>
+                    
+                    <div class="letter__signature">
+                        <p class="letter__signature-text">Avec tout mon amour,</p>
+                        <p class="letter__signature-name">Ton amoureux 💜</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="assets/js/lettre.js"></script>
+</body>
+</html>

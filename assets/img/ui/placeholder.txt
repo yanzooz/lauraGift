@@ -1,0 +1,19 @@
+# Dossier des icônes et éléments UI
+
+Ce dossier contient les icônes et éléments d'interface utilisateur.
+
+## Éléments disponibles :
+- favicon.ico : Icône du site (dans la racine)
+- logo.png : Logo personnalisé (optionnel)
+- background-pattern.svg : Motif de fond (optionnel)
+
+## Formats supportés :
+- ICO : Pour le favicon
+- PNG : Pour les icônes avec transparence
+- SVG : Pour les icônes vectorielles
+- JPG/PNG : Pour les images de fond
+
+## Taille recommandée :
+- Favicon : 32x32px ou 16x16px
+- Icônes : 24x24px à 64x64px
+- Logo : 200x60px maximum

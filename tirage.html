@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirage au sort - Anniversaire Laura</title>
+    <meta name="description" content="Tire au sort ton cadeau surprise !">
+    <meta name="theme-color" content="#FF6B35">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html" class="breadcrumb__link">Accueil</a>
+                <span class="breadcrumb__separator">→</span>
+                <span class="breadcrumb__current">Tirage au sort</span>
+            </nav>
+            <h1 class="header__title">
+                <span class="header__icon">🎁</span>
+                Tirage au sort de ton cadeau
+            </h1>
+            <p class="header__subtitle">5 cadeaux surprise t'attendent !</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Introduction -->
+            <div class="gift-intro">
+                <div class="gift-intro__content">
+                    <h2 class="gift-intro__title">Prête pour ton tirage au sort ?</h2>
+                    <p class="gift-intro__description">
+                        Un seul tirage, 5 cadeaux possibles ! Clique sur le bouton magique et découvre quel cadeau tu as gagné. 
+                        Chaque cadeau est spécialement choisi avec amour pour toi.
+                    </p>
+                    <button class="gift-btn" id="drawButton">
+                        <span class="gift-btn__icon">🎲</span>
+                        <span class="gift-btn__text">Tirer au sort</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Zone de résultat -->
+            <div class="gift-result" id="giftResult" style="display: none;">
+                <div class="gift-result__content">
+                    <div class="gift-result__icon" id="giftIcon">🎁</div>
+                    <h3 class="gift-result__title" id="giftTitle">Ton cadeau !</h3>
+                    <p class="gift-result__description" id="giftDescription">Description du cadeau</p>
+                    <div class="gift-result__actions">
+                        <button class="btn btn--primary" id="claimButton">Récupérer mon cadeau</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Liste des cadeaux possibles -->
+            <div class="gift-list">
+                <h3 class="gift-list__title">Cadeaux disponibles :</h3>
+                <div class="gift-list__items">
+                    <div class="gift-item gift-item--common">
+                        <span class="gift-item__icon">👟</span>
+                        <span class="gift-item__title">Paire de chaussures Adidas</span>
+                        <span class="gift-item__rate">1/4</span>
+                    </div>
+                    <div class="gift-item gift-item--common">
+                        <span class="gift-item__icon">🌸</span>
+                        <span class="gift-item__title">Parfum Chance Eau Tendre</span>
+                        <span class="gift-item__rate">1/4</span>
+                    </div>
+                    <div class="gift-item gift-item--rare">
+                        <span class="gift-item__icon">📱</span>
+                        <span class="gift-item__title">iPad</span>
+                        <span class="gift-item__rate">1/100</span>
+                    </div>
+                    <div class="gift-item gift-item--legendary">
+                        <span class="gift-item__icon">💋</span>
+                        <span class="gift-item__title">Un bisous</span>
+                        <span class="gift-item__rate">1/1000</span>
+                    </div>
+                    <div class="gift-item gift-item--mythic">
+                        <span class="gift-item__icon">🚗</span>
+                        <span class="gift-item__title">Voiture Audi A1</span>
+                        <span class="gift-item__rate">1/1000000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">Bonne chance mon amour ! 💕</p>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/tirage.js"></script>
+</body>
+</html>

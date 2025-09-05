@@ -1,0 +1,140 @@
+{
+  "rarities": {
+    "COMMON": {
+      "label": "Commun",
+      "color": "#F7931E"
+    },
+    "RARE": {
+      "label": "Rare", 
+      "color": "#FF6B35"
+    },
+    "EPIC": {
+      "label": "Épique",
+      "color": "#FFD23F"
+    }
+  },
+  "dropTables": [
+    {
+      "minScore": 0,
+      "weights": {
+        "COMMON": 80,
+        "RARE": 18,
+        "EPIC": 2
+      }
+    },
+    {
+      "minScore": 60,
+      "weights": {
+        "COMMON": 60,
+        "RARE": 30,
+        "EPIC": 10
+      }
+    },
+    {
+      "minScore": 85,
+      "weights": {
+        "COMMON": 40,
+        "RARE": 40,
+        "EPIC": 20
+      }
+    }
+  ],
+  "items": [
+    {
+      "name": "Bon pour un massage",
+      "rarity": "COMMON",
+      "description": "30 minutes de détente totale avec huiles essentielles",
+      "icon": "💆‍♀️"
+    },
+    {
+      "name": "Soirée film & snacks",
+      "rarity": "COMMON", 
+      "description": "Film de ton choix + tes snacks préférés + couverture douillette",
+      "icon": "🍿"
+    },
+    {
+      "name": "Petit-déjeuner au lit",
+      "rarity": "COMMON",
+      "description": "Service complet avec tes plats préférés et café parfait",
+      "icon": "🥐"
+    },
+    {
+      "name": "Séance photo romantique",
+      "rarity": "COMMON",
+      "description": "Photos de nous deux dans un lieu spécial de ton choix",
+      "icon": "📸"
+    },
+    {
+      "name": "Cours de cuisine à deux",
+      "rarity": "COMMON",
+      "description": "Apprendre à cuisiner ensemble un plat de ton choix",
+      "icon": "👨‍🍳"
+    },
+    {
+      "name": "Soirée jeux de société",
+      "rarity": "COMMON",
+      "description": "Tournoi de tes jeux préférés avec récompenses",
+      "icon": "🎲"
+    },
+    {
+      "name": "Dîner fait maison",
+      "rarity": "RARE",
+      "description": "Menu gastronomique 3 services préparé avec amour",
+      "icon": "🍽️"
+    },
+    {
+      "name": "Spa à domicile",
+      "rarity": "RARE",
+      "description": "Soins relaxants complets dans le confort de la maison",
+      "icon": "🛁"
+    },
+    {
+      "name": "Cours de danse privé",
+      "rarity": "RARE",
+      "description": "Apprendre à danser ensemble avec un professeur privé",
+      "icon": "💃"
+    },
+    {
+      "name": "Week-end surprise",
+      "rarity": "RARE",
+      "description": "Destination secrète, tout est organisé ! Aventure garantie",
+      "icon": "✈️"
+    },
+    {
+      "name": "Séance shopping privée",
+      "rarity": "RARE",
+      "description": "Shopping spree avec conseiller personnel et budget généreux",
+      "icon": "🛍️"
+    },
+    {
+      "name": "Concert privé",
+      "rarity": "RARE",
+      "description": "Musique live rien que pour nous dans un lieu intime",
+      "icon": "🎵"
+    },
+    {
+      "name": "Bijou personnalisé",
+      "rarity": "EPIC",
+      "description": "Création unique rien que pour toi par un artisan local",
+      "icon": "💎"
+    },
+    {
+      "name": "Voyage romantique",
+      "rarity": "EPIC",
+      "description": "Échappée amoureuse dans un lieu magique de tes rêves",
+      "icon": "🌹"
+    },
+    {
+      "name": "Proposition en mariage",
+      "rarity": "EPIC",
+      "description": "Le moment le plus important de notre vie ensemble",
+      "icon": "💍"
+    },
+    {
+      "name": "Achat immobilier",
+      "rarity": "EPIC",
+      "description": "Notre première maison ensemble, le début de notre foyer",
+      "icon": "🏠"
+    }
+  ]
+}

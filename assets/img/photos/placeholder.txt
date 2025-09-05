@@ -1,0 +1,8 @@
+Placeholder pour les photos de l'album
+
+Remplacez ce fichier par vos vraies photos :
+- 01.jpg à 15.jpg
+
+Chaque photo doit correspondre aux descriptions dans data/photos.json
+
+Format recommandé : JPG, 800x600px minimum

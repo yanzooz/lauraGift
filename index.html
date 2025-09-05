@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux anniversaire mon amour </title>
+    <meta name="description" content="Un site cadeau spécial pour l'anniversaire de Laura - Album photo, lettre d'amour et quiz surprise">
+    <meta name="theme-color" content="#FF6B35">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__background">
+            <div class="floating-shapes">
+                <div class="shape shape--1"></div>
+                <div class="shape shape--2"></div>
+                <div class="shape shape--3"></div>
+                <div class="shape shape--4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__content">
+                <h1 class="header__title">
+                    <span class="title-line">Aujourd'hui c'est l'anniversaire de</span>
+                    <span class="title-name" id="recipientName">Laura</span>
+                </h1>
+                <p class="header__subtitle">la femme de ma vie que j'aime x100000</p>
+                <div class="header__decoration"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="artistic-grid">
+                <div class="grid-item grid-item--large">
+                    <a href="album.html" class="artistic-card artistic-card--album" aria-label="Voir notre album photo">
+                        <div class="card__background"></div>
+                        <img class="card__image" src="assets/img/photos/IMG_3469.jpg" alt="Notre album photo">
+                        <div class="card__content">
+                            <h2 class="card__title">Notre album photo où on s'aime</h2>
+                            <p class="card__description">ps: on est très beau dessus</p>
+                            <div class="card__accent"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item">
+                    <a href="lettre.html" class="artistic-card artistic-card--letter" aria-label="Lire ma lettre d'amour">
+                        <div class="card__background"></div>
+                        <img class="card__image" src="assets/img/photos/IMG_3205.jpg" alt="Lettre d'amour">
+                        <div class="card__content">
+                            <h2 class="card__title">Une lettre d'amour signé ton amoureux pour la vie</h2>
+                            <p class="card__description">j'ai pas fais avec chatgpt promis</p>
+                            <div class="card__accent"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item">
+                    <a href="tirage.html" class="artistic-card artistic-card--gift" aria-label="Tirage au sort de ton cadeau">
+                        <div class="card__background"></div>
+                        <img class="card__image" src="assets/img/photos/IMG_2757.JPG" alt="Tirage au sort">
+                        <div class="card__content">
+                            <h2 class="card__title">Tirage au sort de ton cadeau</h2>
+                            <p class="card__description">Un seul tirage, 5 cadeaux possibles !</p>
+                            <div class="card__accent"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">encore joyeux anniversaire mon bb d'amour merci de faire parti de ma vie</p>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

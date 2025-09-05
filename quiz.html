@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Surprise - Anniversaire Laura</title>
+    <meta name="description" content="Teste tes connaissances et gagne des cadeaux !">
+    <meta name="theme-color" content="#FF6B35">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html" class="breadcrumb__link">Accueil</a>
+                <span class="breadcrumb__separator">→</span>
+                <span class="breadcrumb__current">Quiz Surprise</span>
+            </nav>
+            <h1 class="header__title">
+                <span class="header__icon">🎁</span>
+                Quiz Surprise
+            </h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Écran d'introduction -->
+            <div class="quiz-intro" id="quizIntro">
+                <div class="quiz-intro__content">
+                    <div class="quiz-intro__icon">🧠</div>
+                    <h2 class="quiz-intro__title">Teste tes connaissances !</h2>
+                    <p class="quiz-intro__description">
+                        Réponds aux questions sur notre histoire et gagne des cadeaux selon ton score !
+                    </p>
+                    <div class="quiz-intro__rules">
+                        <h3>Comment ça marche ?</h3>
+                        <ul>
+                            <li>Plus ton score est élevé, plus tu as de chances d'avoir des cadeaux rares !</li>
+                            <li>Score 0-59% : Cadeaux communs</li>
+                            <li>Score 60-84% : Cadeaux rares</li>
+                            <li>Score 85%+ : Cadeaux épiques !</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn--primary btn--large" id="startQuiz">
+                        <span class="btn__text">Commencer le quiz</span>
+                        <span class="btn__icon">🚀</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Écran du quiz -->
+            <div class="quiz-container" id="quizContainer" style="display: none;">
+                <!-- Barre de progression -->
+                <div class="quiz-progress">
+                    <div class="quiz-progress__bar">
+                        <div class="quiz-progress__fill" id="progressFill"></div>
+                    </div>
+                    <div class="quiz-progress__text">
+                        Question <span id="currentQuestion">1</span> sur <span id="totalQuestions">10</span>
+                    </div>
+                </div>
+
+                <!-- Question -->
+                <div class="question" id="questionContainer">
+                    <h2 class="question__title" id="questionTitle"></h2>
+                    <div class="question__choices" id="questionChoices"></div>
+                    <button class="btn btn--primary" id="nextQuestion" disabled>
+                        <span class="btn__text">Suivant</span>
+                        <span class="btn__icon">→</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Écran des résultats -->
+            <div class="quiz-results" id="quizResults" style="display: none;">
+                <div class="results-header">
+                    <div class="results-icon" id="resultsIcon">🎉</div>
+                    <h2 class="results-title">Quiz terminé !</h2>
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <span class="score-value" id="finalScore">0</span>
+                            <span class="score-percent">%</span>
+                        </div>
+                        <p class="score-label">Score final</p>
+                    </div>
+                </div>
+
+                <!-- Loot -->
+                <div class="loot-section" id="lootSection">
+                    <h3 class="loot-title">Ton cadeau :</h3>
+                    <div class="loot-card" id="lootCard">
+                        <div class="loot-card__rarity" id="lootRarity"></div>
+                        <div class="loot-card__content">
+                            <div class="loot-card__icon" id="lootIcon">🎁</div>
+                            <h4 class="loot-card__name" id="lootName"></h4>
+                            <p class="loot-card__description" id="lootDescription"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="results-actions">
+                    <button class="btn btn--primary" id="playAgain">
+                        <span class="btn__text">Rejouer</span>
+                        <span class="btn__icon">🔄</span>
+                    </button>
+                    <a href="index.html" class="btn btn--secondary">
+                        <span class="btn__text">Retour à l'accueil</span>
+                        <span class="btn__icon">🏠</span>
+                    </a>
+                </div>
+
+                <!-- Historique des scores -->
+                <div class="score-history" id="scoreHistory">
+                    <h3>Tes meilleurs scores</h3>
+                    <div class="score-list" id="scoreList"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="assets/js/quiz.js"></script>
+    <script type="module" src="assets/js/loot.js"></script>
+</body>
+</html>

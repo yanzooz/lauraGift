@@ -1,0 +1,29 @@
+# Dossier audio
+
+Ce dossier contient les fichiers audio pour la musique d'ambiance.
+
+## Fichiers requis :
+- ambient.mp3 : Musique d'ambiance principale
+- ambient.ogg : Version OGG pour compatibilité
+
+## Formats supportés :
+- MP3 : Format principal
+- OGG : Format alternatif pour Firefox
+- WAV : Format non compressé (optionnel)
+
+## Conseils :
+- Durée recommandée : 2-5 minutes en boucle
+- Volume : Modéré pour ne pas gêner
+- Style : Musique douce et romantique
+- Taille : < 5MB par fichier
+
+## Sources libres de droits :
+- Freesound.org
+- Zapsplat.com
+- YouTube Audio Library
+- Incompetech.com
+
+## Outils de conversion :
+- Audacity (gratuit)
+- Online Audio Converter
+- FFmpeg (ligne de commande)

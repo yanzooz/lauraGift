@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "Quelle est notre date d'anniversaire ?",
+    "choices": [
+      "12 avril 2023",
+      "2 juin 2023", 
+      "14 février 2024",
+      "1 janvier 2023"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "q2",
+    "question": "Quel est le parfum préféré de Laura ?",
+    "choices": [
+      "Vanille",
+      "Rose",
+      "Agrumes", 
+      "Boisé"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "q3",
+    "question": "Où avons-nous eu notre premier rendez-vous ?",
+    "choices": [
+      "Au café",
+      "Au parc",
+      "Au restaurant",
+      "Au cinéma"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "q4",
+    "question": "Quelle est la couleur préférée de Laura ?",
+    "choices": [
+      "Bleu",
+      "Violet",
+      "Rose",
+      "Vert"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "q5",
+    "question": "Quel est le plat préféré de Laura ?",
+    "choices": [
+      "Pâtes",
+      "Pizza",
+      "Sushi",
+      "Salade"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "q6",
+    "question": "Quel est le film préféré de Laura ?",
+    "choices": [
+      "Titanic",
+      "Le Roi Lion",
+      "Notting Hill",
+      "Forrest Gump"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "q7",
+    "question": "Quelle est la saison préférée de Laura ?",
+    "choices": [
+      "Printemps",
+      "Été",
+      "Automne",
+      "Hiver"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "q8",
+    "question": "Quel est le sport préféré de Laura ?",
+    "choices": [
+      "Natation",
+      "Yoga",
+      "Course à pied",
+      "Danse"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "q9",
+    "question": "Quel est le livre préféré de Laura ?",
+    "choices": [
+      "Harry Potter",
+      "Le Petit Prince",
+      "Orgueil et Préjugés",
+      "L'Alchimiste"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "q10",
+    "question": "Quel est le rêve de Laura ?",
+    "choices": [
+      "Voyager autour du monde",
+      "Avoir une famille",
+      "Devenir écrivaine",
+      "Toutes les réponses"
+    ],
+    "answerIndex": 3
+  }
+]

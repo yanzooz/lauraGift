@@ -1,0 +1,85 @@
+{
+  "name": "Joyeux Anniversaire Laura",
+  "short_name": "Anniversaire Laura",
+  "description": "Un site cadeau spécial pour l'anniversaire de Laura - Album photo, lettre d'amour et quiz surprise",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8E7",
+  "theme_color": "#FF6B35",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["lifestyle", "entertainment"],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/img/ui/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/ui/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/img/ui/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/img/ui/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Album Photo",
+      "short_name": "Album",
+      "description": "Voir notre album photo interactif",
+      "url": "/album.html",
+      "icons": [
+        {
+          "src": "assets/img/ui/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Lettre d'Amour",
+      "short_name": "Lettre",
+      "description": "Lire ma lettre d'amour secrète",
+      "url": "/lettre.html",
+      "icons": [
+        {
+          "src": "assets/img/ui/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Quiz Surprise",
+      "short_name": "Quiz",
+      "description": "Faire le quiz et gagner des cadeaux",
+      "url": "/quiz.html",
+      "icons": [
+        {
+          "src": "assets/img/ui/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

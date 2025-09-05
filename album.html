@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Album - Anniversaire Laura</title>
+    <meta name="description" content="Découvre nos plus beaux souvenirs ensemble">
+    <meta name="theme-color" content="#FF6B35">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html" class="breadcrumb__link">Accueil</a>
+                <span class="breadcrumb__separator">→</span>
+                <span class="breadcrumb__current">Notre Album</span>
+            </nav>
+            <h1 class="header__title">
+                Quelques photos de nous qui s'aimons <3
+            </h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Galerie -->
+            <div class="gallery" id="photoGallery">
+                <div class="gallery__loading">Chargement de nos souvenirs...</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="lightbox__backdrop"></div>
+        <div class="lightbox__content">
+            <button class="lightbox__close" aria-label="Fermer">&times;</button>
+            <img class="lightbox__image" src="" alt="">
+            <div class="lightbox__info">
+                <h3 class="lightbox__title"></h3>
+                <p class="lightbox__description"></p>
+            </div>
+            <div class="lightbox__nav">
+                <button class="lightbox__prev" aria-label="Photo précédente">‹</button>
+                <button class="lightbox__next" aria-label="Photo suivante">›</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/album.js"></script>
+</body>
+</html>
